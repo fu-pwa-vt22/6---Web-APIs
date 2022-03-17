@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+video, canvas, img {
+    width: 320px;
+    height: 240px;
+}
+
